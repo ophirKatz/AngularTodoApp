@@ -1,0 +1,10 @@
+<h1>My Todos</h1>
+
+<ul>
+	<li *ngFor="let todo of todos | async">
+		<div>
+			<input type="checkbox" [checked]="todo.done">
+			<p> {{ todo.title }} </p>
+		</div>
+	</li>
+</ul>
