@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TodoService } from 'src/app/services/todo.service';
 import { Observable } from 'rxjs';
 import { Todo } from 'src/app/model/todo';

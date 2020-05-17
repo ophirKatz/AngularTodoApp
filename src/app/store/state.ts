@@ -1,5 +1,9 @@
 import { Todo } from '../model/todo';
 
 export interface State {
-	readonly todo: Todo[];
+	readonly todos: Todo[];
+}
+
+export function fromTodos(todos: Todo[]): State {
+	return { todos };
 }
